@@ -1,7 +1,7 @@
 
 ---
 layout: post
-title:  "Final Project"
+title:  "Final Project Original Plan"
 permalink: /Project/
 ---
 
