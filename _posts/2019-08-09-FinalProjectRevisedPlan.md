@@ -5,7 +5,6 @@ permalink: /Project/
 ---
 /* Style the buttons inside the tab */
 .tab button {
-  background-color: white;
   float: left;
   border: none;
   outline: none;
@@ -22,7 +21,6 @@ permalink: /Project/
 
 /* Create an active/current tablink class */
 .tab button.active {
-  background-color: white;
 }
 
 /* Style the tab content */
