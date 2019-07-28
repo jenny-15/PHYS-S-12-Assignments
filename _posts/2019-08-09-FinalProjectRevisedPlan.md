@@ -10,5 +10,6 @@ permalink: /Project/
 
 <div id="Original Plan" class="tabcontent" style="display: block;">
 	<p> original plan <p>
+	
 <div id="Revised Plan" class="tabcontent" style="display: block;">
 	<p> revised plan <p>
