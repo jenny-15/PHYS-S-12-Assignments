@@ -70,3 +70,29 @@ body {background-color: white}
 	
 <div id="Revised Plan" class="tabcontent" style="display: block;">
 	<p> revised plan <p>
+
+
+
+
+<script>
+function openCity(evt, cityName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+</script>
+
+
+  </div><a class="u-url" href="/PHYS-S-12-Assignments/05/" hidden=""></a>
+</article>
+
+ </div>
+    </main>
