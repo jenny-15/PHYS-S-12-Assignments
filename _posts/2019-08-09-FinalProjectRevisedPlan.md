@@ -3,30 +3,6 @@ layout: post
 title:  "Final Project Revised Plan"
 permalink: /Project/
 ---
-<main class="page-content" aria-label="Content">
-      <div class="wrapper">
-        <article class="post h-entry" itemscope="" itemtype="http://schema.org/BlogPosting">
-
-  <header class="post-header">
-    <h1 class="post-title p-name" itemprop="name headline">05: Programmable Electronics</h1>
-    <p class="post-meta">
-      <time class="dt-published" datetime="2019-07-11T00:00:00+00:00" itemprop="datePublished">Jul 11, 2019
-      </time></p>
-  </header>
-
-  <div class="post-content e-content" itemprop="articleBody">
-    <meta name="viewport" content="max-width= 95%, initial-scale= 1">
-
-<style>
-body {font-family: Arial;}
-body {background-color: white}
-/* Style the tab */
-.tab {
-  overflow: hidden;
-  border: 10px solid #933e43;
-  background-color: white;
-}
-
 /* Style the buttons inside the tab */
 .tab button {
   background-color: white;
@@ -59,7 +35,7 @@ body {background-color: white}
 </style>
 
 
-<p><font color="maroon">(click on the tabs below)</font></p>
+<p><font color="yellow">(click on the tabs below)</font></p>
 
 <div class="tab">
   <button class="tablinks active" onclick="openCity(event, 'Original Plan')">Original Plan~</button>
