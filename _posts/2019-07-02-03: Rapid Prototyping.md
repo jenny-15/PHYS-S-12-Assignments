@@ -1,7 +1,7 @@
 
 ---
 layout: post
-title:  "03: Rapid Prototying"
+title:  "03: Rapid Prototyping"
 permalink: /03/
 ---
 
