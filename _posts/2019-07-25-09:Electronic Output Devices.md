@@ -115,8 +115,93 @@ Applications:
 I may use radio module in my final project. If I decide to use a tilt switch to detect when my computer is being turned on and off, I can use a transmitter to send this data to my wristband, which will then beep and vibrate. The code should be somewhat similar because the tilt switch functions the same way as a button. I would only need to turn on a vibrating motor and buzzer instead of a LED. But, unlike this assignment, I would not really need for the wristband to communicate to the computer and it would really only need to be one-way from the computer to the wristband. 
 
 
+
+
+
 Note:
 At first, I wanted to make a different circuit that only communicated one-way so that if a button was pressed on one arduino then a LED would light on the other (instead of doing this both ways). However, this did not work. I am pretty sure that it was probably a problem with the code, but I did not really know how the fix it since I do not have much experience with code. I tried looking at multiple websites that had code to light an LED when a button was pushed, but the code always completed slightly more advanced tasks. The code also varied on all of the different websites, so I did not know how to piece together the code. I tried modifying the original code with what I had found on other websites, but I got really confused, so I decided to make something a little bit different.
 
 The problem could have also been due to interference from other radio modules, but the LED never lit, unlike the circuit that I ended up making, which worked a few times before stopping. 
 
+  Update**:
+  
+  I managed to fix the code in the circuit that I mentioned in "note". The fix was pretty simple, and I just had to edit the LED variable since the code that I originally used had called it two different things. It now works. I followed this circuit:
+  
+ Code:
+  
+ Transmit-
+ <pre>
+<font color="#5e6d03">#include</font> <font color="#434f54">&lt;</font><b><font color="#d35400">SPI</font></b><font color="#434f54">.</font><font color="#000000">h</font><font color="#434f54">&gt;</font>
+<font color="#5e6d03">#include</font> <font color="#434f54">&lt;</font><font color="#000000">nRF24L01</font><font color="#434f54">.</font><font color="#000000">h</font><font color="#434f54">&gt;</font>
+<font color="#5e6d03">#include</font> <font color="#434f54">&lt;</font><b><font color="#d35400">RF24</font></b><font color="#434f54">.</font><font color="#000000">h</font><font color="#434f54">&gt;</font>
+<b><font color="#d35400">RF24</font></b> <font color="#000000">radio</font><font color="#000000">(</font><font color="#000000">9</font><font color="#434f54">,</font> <font color="#000000">10</font><font color="#000000">)</font><font color="#000000">;</font> <font color="#434f54">&#47;&#47; CE, CSN &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font>
+<font color="#00979c">const</font> <font color="#00979c">byte</font> <font color="#000000">address</font><font color="#000000">[</font><font color="#000000">6</font><font color="#000000">]</font> <font color="#434f54">=</font> <font color="#005c5f">&#34;00001&#34;</font><font color="#000000">;</font> &nbsp;&nbsp;&nbsp;&nbsp;<font color="#434f54">&#47;&#47;Byte of array representing the address. This is the address where we will send the data. This should be same on the receiving side.</font>
+<font color="#00979c">int</font> <font color="#000000">button_pin</font> <font color="#434f54">=</font> <font color="#000000">2</font><font color="#000000">;</font>
+<font color="#00979c">boolean</font> <font color="#000000">button_state</font> <font color="#434f54">=</font> <font color="#000000">0</font><font color="#000000">;</font>
+<font color="#00979c">void</font> <font color="#5e6d03">setup</font><font color="#000000">(</font><font color="#000000">)</font> <font color="#000000">{</font>
+<font color="#d35400">pinMode</font><font color="#000000">(</font><font color="#000000">button_pin</font><font color="#434f54">,</font> <font color="#00979c">INPUT</font><font color="#000000">)</font><font color="#000000">;</font>
+<font color="#000000">radio</font><font color="#434f54">.</font><font color="#d35400">begin</font><font color="#000000">(</font><font color="#000000">)</font><font color="#000000">;</font> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#434f54">&#47;&#47;Starting the Wireless communication</font>
+<font color="#000000">radio</font><font color="#434f54">.</font><font color="#d35400">openWritingPipe</font><font color="#000000">(</font><font color="#000000">address</font> <font color="#000000">)</font><font color="#000000">;</font> <font color="#434f54">&#47;&#47;Setting the address where we will send the data</font>
+<font color="#000000">radio</font><font color="#434f54">.</font><font color="#000000">setPALevel</font><font color="#000000">(</font><font color="#000000">RF24_PA_MIN</font><font color="#000000">)</font><font color="#000000">;</font> &nbsp;<font color="#434f54">&#47;&#47;You can set it as minimum or maximum depending on the distance between the transmitter and receiver.</font>
+<font color="#000000">radio</font><font color="#434f54">.</font><font color="#d35400">stopListening</font><font color="#000000">(</font><font color="#000000">)</font><font color="#000000">;</font> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#434f54">&#47;&#47;This sets the module as transmitter</font>
+<font color="#000000">}</font>
+<font color="#00979c">void</font> <font color="#5e6d03">loop</font><font color="#000000">(</font><font color="#000000">)</font>
+<font color="#000000">{</font>
+<font color="#000000">button_state</font> <font color="#434f54">=</font> <font color="#d35400">digitalRead</font><font color="#000000">(</font><font color="#000000">button_pin</font><font color="#000000">)</font><font color="#000000">;</font>
+<font color="#5e6d03">if</font><font color="#000000">(</font><font color="#000000">button_state</font> <font color="#434f54">==</font> <font color="#00979c">HIGH</font><font color="#000000">)</font>
+<font color="#000000">{</font>
+<font color="#00979c">const</font> <font color="#00979c">char</font> <font color="#000000">text</font><font color="#000000">[</font><font color="#000000">]</font> <font color="#434f54">=</font> <font color="#005c5f">&#34;Your Button State is HIGH&#34;</font><font color="#000000">;</font>
+<font color="#000000">radio</font><font color="#434f54">.</font><font color="#d35400">write</font><font color="#000000">(</font><font color="#434f54">&amp;</font><font color="#000000">text</font><font color="#434f54">,</font> <font color="#00979c">sizeof</font><font color="#000000">(</font><font color="#000000">text</font><font color="#000000">)</font><font color="#000000">)</font><font color="#000000">;</font> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#434f54">&#47;&#47;Sending the message to receiver</font>
+<font color="#000000">}</font>
+<font color="#5e6d03">else</font>
+<font color="#000000">{</font>
+<font color="#00979c">const</font> <font color="#00979c">char</font> <font color="#000000">text</font><font color="#000000">[</font><font color="#000000">]</font> <font color="#434f54">=</font> <font color="#005c5f">&#34;Your Button State is LOW&#34;</font><font color="#000000">;</font>
+<font color="#000000">radio</font><font color="#434f54">.</font><font color="#d35400">write</font><font color="#000000">(</font><font color="#434f54">&amp;</font><font color="#000000">text</font><font color="#434f54">,</font> <font color="#00979c">sizeof</font><font color="#000000">(</font><font color="#000000">text</font><font color="#000000">)</font><font color="#000000">)</font><font color="#000000">;</font> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#434f54">&#47;&#47;Sending the message to receiver </font>
+<font color="#000000">}</font>
+<font color="#000000">radio</font><font color="#434f54">.</font><font color="#d35400">write</font><font color="#000000">(</font><font color="#434f54">&amp;</font><font color="#000000">button_state</font><font color="#434f54">,</font> <font color="#00979c">sizeof</font><font color="#000000">(</font><font color="#000000">button_state</font><font color="#000000">)</font><font color="#000000">)</font><font color="#000000">;</font> &nbsp;<font color="#434f54">&#47;&#47;Sending the message to receiver </font>
+<font color="#000000">}</font>
+
+</pre>
+
+ Receive-
+ <pre>
+<font color="#5e6d03">#include</font> <font color="#434f54">&lt;</font><b><font color="#d35400">SPI</font></b><font color="#434f54">.</font><font color="#000000">h</font><font color="#434f54">&gt;</font>
+<font color="#5e6d03">#include</font> <font color="#434f54">&lt;</font><font color="#000000">nRF24L01</font><font color="#434f54">.</font><font color="#000000">h</font><font color="#434f54">&gt;</font>
+<font color="#5e6d03">#include</font> <font color="#434f54">&lt;</font><b><font color="#d35400">RF24</font></b><font color="#434f54">.</font><font color="#000000">h</font><font color="#434f54">&gt;</font>
+<b><font color="#d35400">RF24</font></b> <font color="#000000">radio</font><font color="#000000">(</font><font color="#000000">9</font><font color="#434f54">,</font> <font color="#000000">10</font><font color="#000000">)</font><font color="#000000">;</font> <font color="#434f54">&#47;&#47; CE, CSN</font>
+<font color="#00979c">const</font> <font color="#00979c">byte</font> <font color="#000000">address</font><font color="#000000">[</font><font color="#000000">6</font><font color="#000000">]</font> <font color="#434f54">=</font> <font color="#005c5f">&#34;00001&#34;</font><font color="#000000">;</font>
+<font color="#00979c">boolean</font> <font color="#000000">button_state</font> <font color="#434f54">=</font> <font color="#000000">0</font><font color="#000000">;</font>
+<font color="#00979c">int</font> <font color="#000000">led_pin</font> <font color="#434f54">=</font> <font color="#000000">3</font><font color="#000000">;</font>
+<font color="#00979c">void</font> <font color="#5e6d03">setup</font><font color="#000000">(</font><font color="#000000">)</font> <font color="#000000">{</font>
+<font color="#d35400">pinMode</font><font color="#000000">(</font><font color="#000000">led_pin</font><font color="#434f54">,</font> <font color="#00979c">OUTPUT</font><font color="#000000">)</font><font color="#000000">;</font>
+<b><font color="#d35400">Serial</font></b><font color="#434f54">.</font><font color="#d35400">begin</font><font color="#000000">(</font><font color="#000000">9600</font><font color="#000000">)</font><font color="#000000">;</font>
+<font color="#000000">radio</font><font color="#434f54">.</font><font color="#d35400">begin</font><font color="#000000">(</font><font color="#000000">)</font><font color="#000000">;</font>
+<font color="#000000">radio</font><font color="#434f54">.</font><font color="#d35400">openReadingPipe</font><font color="#000000">(</font><font color="#000000">0</font><font color="#434f54">,</font> <font color="#000000">address</font><font color="#000000">)</font><font color="#000000">;</font> &nbsp;&nbsp;<font color="#434f54">&#47;&#47;Setting the address at which we will receive the data</font>
+<font color="#000000">radio</font><font color="#434f54">.</font><font color="#000000">setPALevel</font><font color="#000000">(</font><font color="#000000">RF24_PA_MIN</font><font color="#000000">)</font><font color="#000000">;</font> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#434f54">&#47;&#47;You can set this as minimum or maximum depending on the distance between the transmitter and receiver.</font>
+<font color="#000000">radio</font><font color="#434f54">.</font><font color="#d35400">startListening</font><font color="#000000">(</font><font color="#000000">)</font><font color="#000000">;</font> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#434f54">&#47;&#47;This sets the module as receiver</font>
+<font color="#000000">}</font>
+<font color="#00979c">void</font> <font color="#5e6d03">loop</font><font color="#000000">(</font><font color="#000000">)</font>
+<font color="#000000">{</font>
+<font color="#5e6d03">if</font> <font color="#000000">(</font><font color="#000000">radio</font><font color="#434f54">.</font><font color="#d35400">available</font><font color="#000000">(</font><font color="#000000">)</font><font color="#000000">)</font> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#434f54">&#47;&#47;Looking for the data.</font>
+<font color="#000000">{</font>
+<font color="#00979c">char</font> <font color="#000000">text</font><font color="#000000">[</font><font color="#000000">32</font><font color="#000000">]</font> <font color="#434f54">=</font> <font color="#005c5f">&#34;&#34;</font><font color="#000000">;</font> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#434f54">&#47;&#47;Saving the incoming data</font>
+<font color="#000000">radio</font><font color="#434f54">.</font><font color="#d35400">read</font><font color="#000000">(</font><font color="#434f54">&amp;</font><font color="#000000">text</font><font color="#434f54">,</font> <font color="#00979c">sizeof</font><font color="#000000">(</font><font color="#000000">text</font><font color="#000000">)</font><font color="#000000">)</font><font color="#000000">;</font> &nbsp;&nbsp;&nbsp;<font color="#434f54">&#47;&#47;Reading the data</font>
+<font color="#000000">radio</font><font color="#434f54">.</font><font color="#d35400">read</font><font color="#000000">(</font><font color="#434f54">&amp;</font><font color="#000000">button_state</font><font color="#434f54">,</font> <font color="#00979c">sizeof</font><font color="#000000">(</font><font color="#000000">button_state</font><font color="#000000">)</font><font color="#000000">)</font><font color="#000000">;</font> &nbsp;&nbsp;&nbsp;<font color="#434f54">&#47;&#47;Reading the data</font>
+<font color="#5e6d03">if</font><font color="#000000">(</font><font color="#000000">button_state</font> <font color="#434f54">==</font> <font color="#00979c">HIGH</font><font color="#000000">)</font>
+<font color="#000000">{</font>
+<font color="#d35400">digitalWrite</font><font color="#000000">(</font><font color="#000000">led_pin</font><font color="#434f54">,</font> <font color="#00979c">HIGH</font><font color="#000000">)</font><font color="#000000">;</font>
+<b><font color="#d35400">Serial</font></b><font color="#434f54">.</font><font color="#d35400">println</font><font color="#000000">(</font><font color="#000000">text</font><font color="#000000">)</font><font color="#000000">;</font>
+<font color="#000000">}</font>
+<font color="#5e6d03">else</font>
+<font color="#000000">{</font>
+<font color="#d35400">digitalWrite</font><font color="#000000">(</font><font color="#000000">led_pin</font><font color="#434f54">,</font> <font color="#00979c">LOW</font><font color="#000000">)</font><font color="#000000">;</font>
+<b><font color="#d35400">Serial</font></b><font color="#434f54">.</font><font color="#d35400">println</font><font color="#000000">(</font><font color="#000000">text</font><font color="#000000">)</font><font color="#000000">;</font><font color="#000000">}</font>
+<font color="#000000">}</font>
+<font color="#000000">}</font> 
+
+
+
+</pre>
+
+
+ Video-
