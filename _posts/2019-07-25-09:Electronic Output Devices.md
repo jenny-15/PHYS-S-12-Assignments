@@ -108,7 +108,8 @@ Problems:
 Once I uploaded the code, the LEDs on each Arduino only lit up around twice when I pressed the button, and then it completely stopped working. I tried reuploading the code on each Arduino, which fixed the problem temporarily, but then it stopped working again. Eventually, it stopped working completely. I am not sure why this happened; Rob said that it could be due to interference from other transmitter in the room, so I will check again before class tomorrow to see if this is the problem.  Also, I had to rewire one of my circuits because my computer would not recognize the port when uploading code so I had to use a different Arduino Uno.
 
 After lab (July 29)- I tried re-uploading the code again after class, but nothing happened.
-Before class (July 30)- I re-uploeaded the code again and it worked! I'm still not really sure why it stopped working last night. I hope it works in class today.
+Before class (July 30)- I re-uploded the code again and it worked! I'm still not really sure why it stopped working last night. I hope it works in class today.
+In-class- the code worked at the beginning of class but it stopped working again. I think that the issues most likely is interference from other radio modules.
 
 Applications:
 I may use radio module in my final project. If I decide to use a tilt switch to detect when my computer is being turned on and off, I can use a transmitter to send this data to my wristband, which will then beep and vibrate. The code should be somewhat similar because the tilt switch functions the same way as a button. I would only need to turn on a vibrating motor and buzzer instead of a LED. But, unlike this assignment, I would not really need for the wristband to communicate to the computer and it would really only need to be one-way from the computer to the wristband. 
