@@ -7,7 +7,7 @@ permalink: /09/
 
 ### 09: Electronic Output Devices-July 29
 
-During this lab we worked with electronic output devices. I chose to use the Arduino nRF24L01 to transmit between two Arduinos.The two circuits on both Arduinos are the same, but the code is slightly different. The objective is to get a LED to light on one Arduino when a button on the other is pressed and vice versa.
+During this lab we worked with electronic output devices. I chose to use the Arduino nRF24L01, a radio module, to transmit between two Arduinos.The two circuits on both Arduinos are the same, but the code is slightly different. The objective is to get a LED to light on one Arduino when a button on the other is pressed and vice versa.
 
 The diagram I used to set up the circuit is below:
 
@@ -111,11 +111,11 @@ After lab (July 29)- I tried re-uploading the code again after class, but nothin
 Before class (July 30)- I re-uploeaded the code again and it worked! I'm still not really sure why it stopped working last night. I hope it works in class today.
 
 Applications:
-I may use transmitters in my final project. If I decide to use a tilt switch to detect when my computer is being turned on and off, I can use transmitters to send this data to my wristband, which will then beep and vibrate. The code should be somewhat similar because the tilt switch functions the same way as a button. I would only need to turn on a vibrating motor and buzzer instead of a LED. But, unlike this assignment, I would not really need for the wristband to communicate to the computer and it would really only need to be one-way from the computer to the wristband. 
+I may use radio module in my final project. If I decide to use a tilt switch to detect when my computer is being turned on and off, I can use a transmitter to send this data to my wristband, which will then beep and vibrate. The code should be somewhat similar because the tilt switch functions the same way as a button. I would only need to turn on a vibrating motor and buzzer instead of a LED. But, unlike this assignment, I would not really need for the wristband to communicate to the computer and it would really only need to be one-way from the computer to the wristband. 
 
 
 Note:
 At first, I wanted to make a different circuit that only communicated one-way so that if a button was pressed on one arduino then a LED would light on the other (instead of doing this both ways). However, this did not work. I am pretty sure that it was probably a problem with the code, but I did not really know how the fix it since I do not have much experience with code. I tried looking at multiple websites that had code to light an LED when a button was pushed, but the code always completed slightly more advanced tasks. The code also varied on all of the different websites, so I did not know how to piece together the code. I tried modifying the original code with what I had found on other websites, but I got really confused, so I decided to make something a little bit different.
 
-The problem could have also been due to interference from other transmitters, but the LED never lit, unlike the circuit that I ended up making, which worked a few times before stopping. 
+The problem could have also been due to interference from other radio modules, but the LED never lit, unlike the circuit that I ended up making, which worked a few times before stopping. 
 
