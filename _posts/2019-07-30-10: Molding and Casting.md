@@ -14,7 +14,7 @@ Today I worked on a mold and my final project.
 
 
 
-Mold:
+**Mold:**
 
 
 I decided to make a mold of a Harvard magnet-
@@ -54,7 +54,7 @@ Final result:
 
 
 
-Final project:
+**Final project:**
 During the lab, I also worked on my final project. I did not want to disassemble my prototype, so I made a new circuit. This time, I incorporated a transistor. I plan on using this in my wristband  to turn the motor on and off. Previously, in my prototype, I used a physical button so that the motor+buzzer would turn on while I held the button down. This will not work in my final design, so I had to use a different method of controlling my circuit. 
 
 I spent a lot of time on the motor. The wires connected to the motor are very weak and kept on unattaching from the circuit. I tried using tape, but that did not secure it either. Then, I decided to solder the wire. After a while, this broke as well. I re-soldered the motor with a different strategy. First, I strengthened the wires on the motor itself with the tin wire. Then, I added this onto a seperate wire and joined them with additional tin wire (Image 4). This worked very well, and I do not think that it will break again. 
