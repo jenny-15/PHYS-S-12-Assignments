@@ -14,7 +14,7 @@ Today I worked on a mold and my final project.
 
 
 
-**Mold:**
+**Molding:**
 
 
 I decided to make a mold of a Harvard magnet-
