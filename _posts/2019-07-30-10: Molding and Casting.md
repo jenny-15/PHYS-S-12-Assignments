@@ -39,7 +39,7 @@ Image 2
 
 
 Problem:
-My cast kept on breaking when I took it out of the mold (Image 3). I think that the first time, the texture was probablys till a little too thin. After re-casting two more times, and having the mold break again, I thought that maybe my design was too delicate. Near the end of the lab, I decided to try a final time, but this time I waited a few hours to make sure that it completely dried and hardened. This time, the cast did not break and turned out pretty well!
+My cast kept on breaking when I took it out of the mold (Image 3). I think that the first time, the texture was probablys till a little too thin. I decided to try again, but this time I waited a few hours to make sure that it completely dried and hardened. This time, the cast did not break and turned out pretty well! It did not break when I took it out, but it broke when I was filing it down. I used joined the broken piece with glue
 
 ![IMG_2455](https://user-images.githubusercontent.com/52216217/62302188-eb9b1e00-b447-11e9-8791-5bb985a85892.jpg)
 Image 3
@@ -48,7 +48,7 @@ Final result before filling:
 ![IMG_2470](https://user-images.githubusercontent.com/52216217/62302312-1eddad00-b448-11e9-8063-0942c8112bdb.jpg)
 
 Final result:
-
+![IMG_2501](https://user-images.githubusercontent.com/52216217/62309240-1475e000-b455-11e9-82db-d83ed1fae4ca.jpg)
 
 
 
