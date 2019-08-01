@@ -1,4 +1,3 @@
-
 ---
 layout: post
 title:  "07: Electronic Input Devices"
