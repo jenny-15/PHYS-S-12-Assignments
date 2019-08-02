@@ -1,6 +1,5 @@
-
 ---
-layout: post
+layout: default
 title:  "10: Molding & Casting"
 permalink: /10/
 ---
