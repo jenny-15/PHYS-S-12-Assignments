@@ -1,6 +1,5 @@
-
 ---
-layout: post
+layout: default
 title:  "06: 3D Design & Printing"
 permalink: /06/
 ---
