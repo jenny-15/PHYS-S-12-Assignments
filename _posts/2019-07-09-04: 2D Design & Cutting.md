@@ -81,7 +81,9 @@ Image 8
 ![IMG_1500](https://user-images.githubusercontent.com/52216217/61061416-376b2200-a3ca-11e9-8091-659704feca0d.jpg)
 Image 9
 
-I have not been able to add the video but I will update this page when I figure it out**
+<video width="" controls="">
+		<source src="IMG_1513.TRIM 2_2.mp4" type="video/mp4">
+	</video>
 
 
 Challenges:
