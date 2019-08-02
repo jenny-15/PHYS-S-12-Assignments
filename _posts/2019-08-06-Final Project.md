@@ -3,13 +3,62 @@ layout: default
 title:  "Final Project"
 permalink: /Project/
 ---
-<div class="post-content e-content" itemprop="articleBody">
-    <meta name="viewport" content="max-width= 95%, initial-scale= 1">;
+<div class="wrapper">
+        <article class="post h-entry" itemscope="" itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">08: CNC Milling</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="2019-07-23T00:00:00+00:00" itemprop="datePublished">Jul 23, 2019
+      </time></p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <meta name="viewport" content="max-width= 95%, initial-scale= 1">
+
+<style>
+body {font-family: Arial;}
+body {background-color: white}
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  border: 10px solid #933e43;
+  background-color: white;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 18px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #933e43;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: white;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 9px 18px;
+  border: 10px solid #933e43;
+  border-top: none;
 }
 </style>
 
 
-<p><font color="maroon">(click on the tabs below)</font></p>
+<p><font color="black">(click on the tabs below)</font></p>
 
 <div class="tab">
   <button class="tablinks" onclick="openCity(event, 'Final Project Original Plan)">Final Project Original Plan</button>
@@ -19,7 +68,6 @@ permalink: /Project/
 
 <div id="Final Project Original Plan" class="tabcontent">
 	<h3>Lesson</h3>
-<p>
 Idea:
 -A wearable device on the wrist that allows you to focus by sending a small and safe electrical current onto your wrist when you start procrastinating or become distracted.
 	--The current should be irritating but not painful
@@ -72,4 +120,4 @@ Similar product: Pavlock - https://pavlok.com/blog/inside-pavlok-history-pavlok-
 
 Design:
 ![PHYS FP 1](https://user-images.githubusercontent.com/52216217/60459780-0c394380-9c10-11e9-9421-c2592daccb9d.jpg)
-</p>
+</div>
