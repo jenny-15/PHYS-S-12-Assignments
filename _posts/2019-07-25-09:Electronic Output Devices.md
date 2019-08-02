@@ -205,3 +205,6 @@ The problem could have also been due to interference from other radio modules, b
 
 
  Video-
+<video width="" controls="">
+		<source src="IMG_2380.TRIM.mp4" type="video/mp4">
+	</video>
