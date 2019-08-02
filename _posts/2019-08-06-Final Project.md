@@ -1,10 +1,26 @@
 
 ---
-layout: post
-title:  "Final Project Original Plan"
+layout: default
+title:  "Final Project"
 permalink: /Project/
 ---
+<div class="post-content e-content" itemprop="articleBody">
+    <meta name="viewport" content="max-width= 95%, initial-scale= 1">;
+}
+</style>
 
+
+<p><font color="maroon">(click on the tabs below)</font></p>
+
+<div class="tab">
+  <button class="tablinks" onclick="openCity(event, 'Final Project Original Plan)">Final Project Original Plan</button>
+  <button class="tablinks" onclick="openCity(event, 'Final Project Plan 2')">Final Project Plan 2</button>
+	<button class="tablinks" onclick="openCity(event, 'Final Plan')">Final Plan</button>
+</div>
+
+<div id="Final Project Original Plan" class="tabcontent">
+	<h3>Lesson</h3>
+<p>
 Idea:
 -A wearable device on the wrist that allows you to focus by sending a small and safe electrical current onto your wrist when you start procrastinating or become distracted.
 	--The current should be irritating but not painful
@@ -57,3 +73,4 @@ Similar product: Pavlock - https://pavlok.com/blog/inside-pavlok-history-pavlok-
 
 Design:
 ![PHYS FP 1](https://user-images.githubusercontent.com/52216217/60459780-0c394380-9c10-11e9-9421-c2592daccb9d.jpg)
+</p>
