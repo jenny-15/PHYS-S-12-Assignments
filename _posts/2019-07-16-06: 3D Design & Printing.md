@@ -21,9 +21,9 @@ Printer: Prusa
 
 
 Here is a video of the object being printed:
-<video width="955" height="541" controls>
-	<source src="IMG_1815.TRIM.MOV" type="video/mp4">
-</video>
+<video width="" controls="">
+		<source src="IMG_1815.TRIM 2_2.mp4" type="video/mp4">
+	</video>
 
 
 Final result:
