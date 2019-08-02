@@ -1,4 +1,3 @@
-
 ---
 layout: post
 title:  "04: 2D Design & Cutting"
