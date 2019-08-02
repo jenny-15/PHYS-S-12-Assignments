@@ -1,6 +1,5 @@
-
 ---
-layout: post
+layout: defualt
 title:  "05: Programmable Electronics"
 permalink: /05/
 ---
