@@ -78,7 +78,7 @@ We started off with the hand drill. To use it, insert a twist drill bit and hold
 <video width="" controls="">
 		<source src="IMG_0612.TRIM 2_2 (1).mp4" type="video/mp4">
 	</video>
-Video 1
+Vid 1
 
 
 Task #4: Joining
