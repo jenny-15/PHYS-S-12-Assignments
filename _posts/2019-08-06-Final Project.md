@@ -7,7 +7,7 @@ permalink: /Project/
         <article class="post h-entry" itemscope="" itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title p-name" itemprop="name headline">08: CNC Milling</h1>
+    <h1 class="post-title p-name" itemprop="name headline">Final Project</h1>
     <p class="post-meta">
       <time class="dt-published" datetime="2019-07-23T00:00:00+00:00" itemprop="datePublished">Jul 23, 2019
       </time></p>
