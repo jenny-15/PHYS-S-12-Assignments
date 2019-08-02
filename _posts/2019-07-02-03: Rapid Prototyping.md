@@ -1,6 +1,5 @@
-
 ---
-layout: post
+layout: default
 title:  "03: Rapid Prototyping"
 permalink: /03/
 ---
