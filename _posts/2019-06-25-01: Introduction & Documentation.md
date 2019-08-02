@@ -1,6 +1,5 @@
-
 ---
-layout: post
+layout: default
 title:  "01: Introduction & Documentation"
 permalink: /01/
 ---
