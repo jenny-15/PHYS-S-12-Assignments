@@ -1,6 +1,6 @@
 ---
 layout: default
-title:  "03: Press Fit Kit"
+title:  "03: 2D Design & Cutting"
 permalink: /03/
 ---
 
