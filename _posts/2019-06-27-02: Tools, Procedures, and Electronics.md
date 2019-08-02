@@ -73,9 +73,6 @@ Use the tool, a caliper, in Image 9, to measure the width of screws and twist dr
 Task #4: Drilling
 Materials: hand drill, twist drill bits, screw, drill press, wood
 
-[img_0612.trim%03d.zip](https://github.com/jenny-15/PHYS-S-12-Assignments/files/3350640/img_0612.trim.03d.zip)
-!
-
 We started off with the hand drill. To use it, insert a twist drill bit and hold down the black button to start drilling. Be careful with the drill, as you will drill through the wood quite quickly, so be aware. Then, we used the drill press for more accurate and perpedicular holes. To use the press, see Video 1. 
 
 <video width="" controls="">
