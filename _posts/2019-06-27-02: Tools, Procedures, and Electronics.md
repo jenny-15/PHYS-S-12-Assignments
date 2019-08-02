@@ -79,7 +79,7 @@ Materials: hand drill, twist drill bits, screw, drill press, wood
 We started off with the hand drill. To use it, insert a twist drill bit and hold down the black button to start drilling. Be careful with the drill, as you will drill through the wood quite quickly, so be aware. Then, we used the drill press for more accurate and perpedicular holes. To use the press, see Video 1. 
 
 <video width="" controls="">
-		<source src="IMG_0612.TRIM 2.mp4" type="video/mp4">
+		<source src="IMG_0612.TRIM 2.MOV" type="video/mp4">
 	</video>
 Video 1
 
