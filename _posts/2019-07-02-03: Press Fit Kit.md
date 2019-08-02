@@ -1,6 +1,6 @@
 ---
 layout: default
-title:  "03: Rapid Prototyping"
+title:  "03: Press Fit Kit"
 permalink: /03/
 ---
 
