@@ -59,8 +59,10 @@ The next thing that I did after wiring the board was upload the code into the Ar
 
 Essentially, my circuit turns on lights periodically by using delays. The delay between lights can be adjusted in the line “long interval = 2000;” by changing the numeric value (in milliseconds). For my circuit, I made the delay 2000 miliseconds, or 2 seconds, so that the entire circuit would be a 10 second timer. After 10 seconds is over, the lights stay on and the timer runs again when the button is pressed. Something that I noticed is that there is a delay between pressing the button and the light turning on. Also, the delays vary in real time between each light turning on, but it takes 10 seconds total for all the lights to turn on. So, the delay essentially varys per light, but overall the timer works well because it takes 10 seconds for the light to turn on. 
 
-Here is my final result:
-*i still have to add the video
+Here is a video of my final result:
+<video width="" controls="">
+		<source src="IMG_1761.TRIM 2_2.mp4" type="video/mp4">
+	</video>
 
 
 What I learned: 
