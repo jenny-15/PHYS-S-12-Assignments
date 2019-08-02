@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title:  "04: 2D Design & Cutting"
 permalink: /04/
 ---
