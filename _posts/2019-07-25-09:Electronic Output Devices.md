@@ -1,6 +1,5 @@
-
 ---
-layout: post
+layout: default
 title:  "09: Electronic Output Devices"
 permalink: /09/
 ---
