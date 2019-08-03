@@ -53,8 +53,7 @@ body {font-family: Arial;}
 <body>
 
 <h2>Tabs</h2>
-<p>**Please view this on Safari, not Google Chrome.
-	Click on the buttons inside the tabbed menu:</p>
+<p> Click on the buttons inside the tabbed menu:</p>
 
 
 <div class="tab">
