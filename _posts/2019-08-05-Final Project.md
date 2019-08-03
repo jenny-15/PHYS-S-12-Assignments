@@ -5,7 +5,7 @@ permalink: /12/
 ---
 
 ### Final Project
-			// <!DOCTYPE html>
+			
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -53,7 +53,8 @@ body {font-family: Arial;}
 <body>
 
 <h2>Tabs</h2>
-<p>Click on the buttons inside the tabbed menu:</p>
+<p>**Please view this on Safari, not Google Chrome.
+	Click on the buttons inside the tabbed menu:</p>
 
 
 <div class="tab">
@@ -61,7 +62,7 @@ body {font-family: Arial;}
   <button class="tablinks" onclick="openCity(event, 'Final Project Plan 2')">Final Project Plan 2</button>
 	<button class="tablinks" onclick="openCity(event, 'Final Plan')">Final Plan</button>
 	<button class="tablinks" onclick="openCity(event, 'Project Update 07/31')">Project Update 07/31</button>
-	<button class="tablinks" onclick="openCity(event, 'Update 08/03')">Update 08/03</button>
+	<button class="tablinks" onclick="openCity(event, 'Progress')">Progress</button>
 </div>
 
 
@@ -83,7 +84,8 @@ body {font-family: Arial;}
 
 <div id="Final Plan" class="tabcontent">
   <h3>Final Plan</h3>
-  <p> <<iframe src="https://docs.google.com/document/d/e/2PACX-1vSqpsDcZlcAMFl7K62GBmFF3NcwtxP8evhzyxm1pmIt01_0HmuBeqDusvu54dNwRdXFbG5gJ2YuIOIm/pub?embedded=true"></iframe> </p>
+	
+  <p> <iframe src="https://docs.google.com/document/d/1iUxP3WUQkKK1ayuvKkRupLUH8T-d88zNqGBm1yYudVE/edit?usp=sharing" frameborder="0"></iframe> </p>
 </div>
 
 <div id="Project Update 07/31" class="tabcontent">
@@ -119,8 +121,8 @@ Moments after writing about my problems, I realized that I may have had the LED 
 However, now that the LED has turned on it is acting strangely and will not turn off when I press the button. It just keeps blinking. The receiver reacts with the LED. It vibrates and buzzes as the LED blinks, and it vibrates much stronger when the transmitter is tilted (the tilt switch), but nothing turns off when the transmitter is laid flat, which is the goal. Instead, the buzzing+vibrating just gets weaker. </p>
 </div>
 
-<div id="Update 08/03" class="tabcontent">
-  <h3>Update 08/03</h3>
+<div id="Progress" class="tabcontent">
+  <h3>Progress</h3>
   <p  
      <iframe src=" https://docs.google.com/document/d/139E958er5j9MPKxyXhbfnbgA3y83sf7eP6fXaIT4rO4/edit?usp=sharing" style="width:600px; height:500px;" frameborder="0"></iframe>  </p>
 </div>
