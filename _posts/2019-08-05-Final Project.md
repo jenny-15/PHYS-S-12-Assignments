@@ -5,12 +5,12 @@ permalink: /12/
 ---
 
 ### Final Project
-/* <!DOCTYPE html>
+// <!DOCTYPE html>
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
-body {font-family: Arial;} */
+body {font-family: Arial;} 
 
 /* Style the tab */
 .tab {
