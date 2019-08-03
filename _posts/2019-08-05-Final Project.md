@@ -83,7 +83,7 @@ body {font-family: Arial;}
 
 <div id="Final Plan" class="tabcontent">
   <h3>Final Plan</h3>
-  <p> <iframe src=" https://docs.google.com/document/d/1iUxP3WUQkKK1ayuvKkRupLUH8T-d88zNqGBm1yYudVE/edit?usp=sharing" style="width:600px; height:500px;" frameborder="0"></iframe> </p>
+  <p> <<iframe src="https://docs.google.com/document/d/e/2PACX-1vSqpsDcZlcAMFl7K62GBmFF3NcwtxP8evhzyxm1pmIt01_0HmuBeqDusvu54dNwRdXFbG5gJ2YuIOIm/pub?embedded=true"></iframe> </p>
 </div>
 
 <div id="Project Update 07/31" class="tabcontent">
