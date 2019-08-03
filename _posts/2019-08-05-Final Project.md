@@ -1,7 +1,7 @@
 ---
 layout: default
-title:  "FP"
-permalink: /13/
+title:  "Final Project"
+permalink: /12/
 ---
 
 ### Final Project
