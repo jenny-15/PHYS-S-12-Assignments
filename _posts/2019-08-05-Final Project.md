@@ -65,8 +65,8 @@ body {font-family: Arial;}
 </div>
 
 
-<div id="Final Project Original Plan)" class="tabcontent">
-  <h3>Final Project Original Plan)</h3>
+<div id="Final Project Original Plan" class="tabcontent">
+  <h3>Final Project Original Plan</h3>
   <p> <iframe src="https://docs.google.com/document/d/1lwFWprxDkQgblWIpog1j_dIiaDs_jzjJ_5lyDi-J3wg/edit?usp=sharing" style="width:600px; height:500px;" frameborder="0"></iframe>
 
 </p>
@@ -121,7 +121,8 @@ However, now that the LED has turned on it is acting strangely and will not turn
 
 <div id="Update 08/03" class="tabcontent">
   <h3>Update 08/03</h3>
-  <p  <iframe src=" https://docs.google.com/document/d/139E958er5j9MPKxyXhbfnbgA3y83sf7eP6fXaIT4rO4/edit?usp=sharing" style="width:600px; height:500px;" frameborder="0"></iframe>  </p>
+  <p  
+     <iframe src=" https://docs.google.com/document/d/139E958er5j9MPKxyXhbfnbgA3y83sf7eP6fXaIT4rO4/edit?usp=sharing" style="width:600px; height:500px;" frameborder="0"></iframe>  </p>
 </div>
 
 <script>
