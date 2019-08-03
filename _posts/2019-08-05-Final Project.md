@@ -58,7 +58,7 @@ body {font-family: Arial;}
 
 
 <div class="tab">
-  <button class="tablinks" onclick="openCity(event, 'Final Project Original Plan)">Final Project Original Plan</button>
+  <button class="tablinks" onclick="openCity(event, 'Final Project Original Plan')">Final Project Original Plan</button>
   <button class="tablinks" onclick="openCity(event, 'Final Project Plan 2')">Final Project Plan 2</button>
 	<button class="tablinks" onclick="openCity(event, 'Final Plan')">Final Plan</button>
 	<button class="tablinks" onclick="openCity(event, 'Project Update 07/31')">Project Update 07/31</button>
