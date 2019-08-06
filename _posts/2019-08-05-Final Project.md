@@ -247,6 +247,7 @@ Receiver-
 After finishing with the circuit, I swapped out the Arduino Uno’s with Micro’s to save space. 
 
 Finished circuit:
+<img src="IMG_2570.jpg" alt="IMG_2570" 
 
 ![IMG_2570](https://user-images.githubusercontent.com/52216217/62416794-3915b780-b60f-11e9-8f65-e406465e831c.jpg)
 ![IMG_2561](https://user-images.githubusercontent.com/52216217/62416795-3a46e480-b60f-11e9-8098-58c8046ab548.jpg)
