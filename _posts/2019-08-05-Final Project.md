@@ -94,8 +94,7 @@ body {font-family: Arial;}
 
 <div id="Progress" class="tabcontent">
   <h3>Progress</h3>
-  <p  
-     <iframe src=" https://docs.google.com/document/d/139E958er5j9MPKxyXhbfnbgA3y83sf7eP6fXaIT4rO4/edit?usp=sharing" style="width:600px; height:500px;" frameborder="0"></iframe>  </p>
+  <p> <iframe src="https://docs.google.com/document/d/139E958er5j9MPKxyXhbfnbgA3y83sf7eP6fXaIT4rO4/edit?usp=sharing" frameborder="0"></iframe>  </p>
 </div>
 
 <script>
