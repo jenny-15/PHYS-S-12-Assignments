@@ -28,7 +28,8 @@ Software-
 Fusion 360, Arduino IDE
 
 Cardboard cut on Fusion 360:
-<script src="https://embed.github.com/view/3d/<jenny-15>/<DF R4>/<master>/<path_to_file>"></script>
+<script src="https://embed.github.com/view/3d/jenny-15/DF R4/master/stl/clip.stl"></script>
+
 
 
 
