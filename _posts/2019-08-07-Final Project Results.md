@@ -36,6 +36,9 @@ Receiver-
 <img width="1005" alt="Screen Shot 2019-08-06 at 7 35 40 PM" src="https://user-images.githubusercontent.com/52216217/62584681-97e36700-b883-11e9-8b0c-17fecbee6eb1.png">
 
 The final circuit video:
+<video width="" controls="">
+		<source src="IMG_2651.TRIM.mp4" type="video/mp4">
+	</video>
 
 Final code:
 Transmitter-
