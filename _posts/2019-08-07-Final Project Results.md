@@ -42,11 +42,12 @@ The final circuit video:
 
 Final code:
 Transmitter-
-https://create.arduino.cc/editor/jennyxu/2cfe51be-07db-43fd-8736-ba8b8eaefe5c/preview
+<a href="https://create.arduino.cc/editor/jennyxu/2cfe51be-07db-43fd-8736-ba8b8eaefe5c/preview
+">Google</a>
 
 Receiver-
-https://create.arduino.cc/editor/jennyxu/b309f01a-2e6c-4a24-be1e-637bd7ceee92/preview
-
+<a href="https://create.arduino.cc/editor/jennyxu/b309f01a-2e6c-4a24-be1e-637bd7ceee92/preview
+">Google</a>
 
 The final device:
 ![IMG_2707](https://user-images.githubusercontent.com/52216217/62587842-a0db3500-b891-11e9-85a2-f57cbd63f163.jpg)
