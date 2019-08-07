@@ -46,5 +46,7 @@ https://create.arduino.cc/editor/jennyxu/b309f01a-2e6c-4a24-be1e-637bd7ceee92/pr
 
 
 The final device:
+![IMG_2707](https://user-images.githubusercontent.com/52216217/62587842-a0db3500-b891-11e9-85a2-f57cbd63f163.jpg)
+
 
 
