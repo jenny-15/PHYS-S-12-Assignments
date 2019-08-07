@@ -27,7 +27,7 @@ Soldering gun, laser cutter
 Software-
 Fusion 360, Arduino IDE
 
-Cardboard cut on Fusion 360:
+Cardboard cube cut on Fusion 360:
 Receiver-
 <script src="https://embed.github.com/view/3d/jenny-15/PHYS-S-12-Assignments/master/13/DF%20R4.stl"></script>
 
