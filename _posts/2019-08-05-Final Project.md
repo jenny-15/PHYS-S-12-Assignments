@@ -1,10 +1,10 @@
 ---
 layout: default
-title:  "Final Project"
+title:  "Final Project Progress"
 permalink: /12/
 ---
 
-### Final Project
+### Final Project Progress
 			
 <html>
 <head>
