@@ -4,7 +4,7 @@ title:  "Final Project Plans"
 permalink: /12/
 ---
 
-### Final Project Progress
+### Final Project Plans
 			
 <html>
 <head>
@@ -53,7 +53,7 @@ body {font-family: Arial;}
 <body>
 
 <h2>Tabs</h2>
-<p> These tabs work best in safari. If you are in chrome and the tab contents are not showing up, please click on the links. Click on the buttons inside the tabbed menu:</p>
+<p> This page contains the plans that I made throughout the project. These tabs work best in safari. If you are in chrome and the tab contents are not showing up, please click on the links. Click on the buttons inside the tabbed menu:</p>
 
 
 <div class="tab">
