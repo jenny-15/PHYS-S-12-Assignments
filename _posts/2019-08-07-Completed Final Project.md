@@ -97,6 +97,6 @@ My final project did not turn out the way that I expected, but I learned a lot a
 
 I think that this whole experience has been very worthwhile. Although this project did not turn out as I expected, I will definitely work on my protoboard after this class ends and get the radio modules to work. I will probably just start with a new protoboard and nrf24l01 and solder the connections again.
 
-This entire class has been very interesting. Everything that I was exposed to was pretty new to me, and much of it was not anything that I could have learned in school. This has been very a eye-opening class since I got to learn about many diffrent fields within technology and where they are going. It is definitely something that I am interested in pursuing and exploring further!
+This entire class has been very interesting. Everything that I was exposed to was pretty new to me, and much of it was not anything that I could have learned in school. This has been very a eye-opening class since I got to learn about many diffrent fields within technology and where they are going. The device that I made not overly complicated. However, it was a great first project for me and the idea behind it can make a huge impact. I hope that as I become more experienced I can make more complex projects. I am definitely something that I am interested in exploring this field further!
 
 
