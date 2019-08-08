@@ -58,10 +58,10 @@ Receiver-
 <img width="1005" alt="Screen Shot 2019-08-06 at 7 35 40 PM" src="https://user-images.githubusercontent.com/52216217/62584681-97e36700-b883-11e9-8b0c-17fecbee6eb1.png">
 
 The final circuit video:
-<video width="" controls="">
+<video width="400" controls="">
 		<source src="IMG_2651.TRIM.mp4" type="video/mp4">
 	</video>
-
+	
 Final code:
 <a href="https://create.arduino.cc/editor/jennyxu/2cfe51be-07db-43fd-8736-ba8b8eaefe5c/preview
 ">Transmitter</a>
