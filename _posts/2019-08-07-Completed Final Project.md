@@ -14,6 +14,16 @@ Aversive conditioning is a behavioral training that uses negative stimuli to ass
 
 My final project did not turn out the way that I expected, but I learned a lot along the way. I initially planned on making a wristband that shocked the wearer when they turn on electronics, and I ended up with a wristband that vibrates and buzzes and a separate device that attaches to electronics. In the end, I did not have enough time to condense my circuit into a protoboard due to issues I had with the radio module. So, I created the circuits that I would have put into the protoboard on a breadboard and made the devices that hold my circuit separately. My final project works, just not altogether. The code, sensor, vibrator, and buzzer all work, just not when transferred onto a protoboard. 
 
+**How it Works:**
+My final project consists of two separate cirucits. One transmits and the other receives. 
+
+Transmitter-
+This circuit has a button, an LED, and a tilt switch. The button acts as an on/off switch. Each time the button is pressed, the LED turns on/off. The code is programmed to check the state of the tilt switch when the LED is on. It then sends the tilt switch state to the receiver. The tilt switch detects the angle of the device it is attatched to. So, if your computer screen is closed, the switch is off. The, when you tilt open the screen, the tilt switch is on. This works on phones too. If your phone is laid flat the switch will be off, and if you pick it up it will be on.
+
+Receiver-
+This circuit has a buzzer, a vibration motor, and a transistor. I used the transistor to control the motor and turn it on/off. When the tilt switch is on, the transistor powers the motor. The buzzer beeps when the tilt state is on.
+
+
 Materials:
 Circuit-
 A breadboard, 2 protoboards, 2 nrf24l01 radio modules, buzzer, ERM cylindrical vibration motor, transistor, button, tilt switch, LED, wires, AND 2 Arduino Uno's and/or Nano's.
