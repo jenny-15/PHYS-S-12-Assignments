@@ -95,14 +95,14 @@ body {font-family: Arial;}
 
 <div id="Project Update 07/31" class="tabcontent">
   <h3>Project Update 07/31</h3>
-  <p> <a href=https://docs.google.com/document/d/1-LVbl4_siurPn3JIq2tPXhH4YKHk0wKiKJPSXjMJ0pI/edit?usp=sharing
+  <p> <a href="https://docs.google.com/document/d/1-LVbl4_siurPn3JIq2tPXhH4YKHk0wKiKJPSXjMJ0pI/edit?usp=sharing
 ">Project Update 07/31 Link</a>
 	<iframe src="https://docs.google.com/document/d/1-LVbl4_siurPn3JIq2tPXhH4YKHk0wKiKJPSXjMJ0pI/edit?usp=sharing" frameborder="0"></iframe>  </p>
 </div>
 
 <div id="Progress" class="tabcontent">
   <h3>Progress</h3>
-  <p> <a href=https://docs.google.com/document/d/139E958er5j9MPKxyXhbfnbgA3y83sf7eP6fXaIT4rO4/edit?usp=sharing
+  <p> <a href="https://docs.google.com/document/d/139E958er5j9MPKxyXhbfnbgA3y83sf7eP6fXaIT4rO4/edit?usp=sharing
 ">Progress Link</a>
 	  <iframe src="https://docs.google.com/document/d/139E958er5j9MPKxyXhbfnbgA3y83sf7eP6fXaIT4rO4/edit?usp=sharing" frameborder="0"></iframe>  </p>
 </div>
