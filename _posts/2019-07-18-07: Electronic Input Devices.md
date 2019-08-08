@@ -83,6 +83,6 @@ If I decide to use a tilt sensor in my final project I think that I will just us
 
 Here is a video of the sensor (the LED lightly faintly when the computer opens):
 	
-<video width="" controls="">
+<video width="400" controls="">
 		<source src="IMG_0612.TRIM 2_2 (1) (1).mp4" type="video/mp4">
 	</video>
