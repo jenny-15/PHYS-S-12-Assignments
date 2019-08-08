@@ -61,6 +61,11 @@ Image 6
 When learning to saw, we were introduced to many different types of saws. I found the pull saws easiest to use (Image 3), and I initially had a lot of difficulty using the push saws (Image 4). After some practice, I found that it was easiest to use when using a very light and relaxed hand. My favorite handsaw is definetly the Japanese pullsaw. It was the smoothest and easiest to use. I also used a hacksaw (Image 5) to cut part of a nail. This took a lot of time as the saw was easy to use but the material was hard to cut through. The final type of saw that I used was the scroll saw (Image 6). I used this saw to cut a curvy line which was much harder to control. I think that if I practice more I will get the hang of it.
 
 While we were sawing, we also used vises (Image 7) to secure the wood in place on the table. They act as a clamp. These tools are very important so that the wood does not shift while you are cutting. It is also very importabt for safety reasons. Another option was using the clamps attatched to the table (Image 8).
+![IMG_2761](https://user-images.githubusercontent.com/52216217/62723347-806cc100-b9de-11e9-8b15-587123a38dc2.jpg)
+Image 7
+
+![IMG_2757](https://user-images.githubusercontent.com/52216217/62723349-81055780-b9de-11e9-8365-85ffb4a0bc25.jpg)
+Image 8
 
 
 Task #3: Measuring
