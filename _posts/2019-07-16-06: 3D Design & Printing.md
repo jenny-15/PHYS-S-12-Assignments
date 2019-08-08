@@ -21,7 +21,7 @@ Printer: Prusa
 
 
 Here is a video of the object being printed:
-<video width="" controls="">
+<video width="400" controls="">
 		<source src="IMG_1815.TRIM 2_2.mp4" type="video/mp4">
 	</video>
 
