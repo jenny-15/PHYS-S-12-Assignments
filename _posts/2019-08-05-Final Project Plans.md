@@ -59,7 +59,7 @@ body {font-family: Arial;}
 <div class="tab">
   <button class="tablinks" onclick="openCity(event, 'Final Project Original Plan')">Final Project Original Plan</button>
   <button class="tablinks" onclick="openCity(event, 'Final Project Plan 2')">Final Project Plan 2</button>
-	<button class="tablinks" onclick="openCity(event, 'Final Plan')">Final Plan</button>
+	<button class="tablinks" onclick="openCity(event, 'Plan 3')">Final Plan</button>
 </div>
 
 
@@ -83,8 +83,8 @@ body {font-family: Arial;}
  </p> 
 </div>
 
-<div id="Final Plan" class="tabcontent">
-  <h3>Final Plan</h3>
+<div id="Plan 3" class="tabcontent">
+  <h3>Plan 3</h3>
 	
   <p> <a href="https://docs.google.com/document/d/1iUxP3WUQkKK1ayuvKkRupLUH8T-d88zNqGBm1yYudVE/edit?usp=sharing
 ">Final Plan Link</a>
