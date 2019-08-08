@@ -53,7 +53,7 @@ body {font-family: Arial;}
 <body>
 
 <h2>Tabs</h2>
-<p> These tabs work best in safari. Click on the buttons inside the tabbed menu:</p>
+<p> These tabs work best in safari. If you are in chrome and the tab contents are not showing up, please click on the links. Click on the buttons inside the tabbed menu:</p>
 
 
 <div class="tab">
@@ -67,7 +67,9 @@ body {font-family: Arial;}
 
 <div id="Final Project Original Plan" class="tabcontent">
   <h3>Final Project Original Plan</h3>
-  <p> <iframe src="https://docs.google.com/document/d/1lwFWprxDkQgblWIpog1j_dIiaDs_jzjJ_5lyDi-J3wg/edit?usp=sharing" style="width:600px; height:500px;" frameborder="0"></iframe>
+  <p> <a href="https://docs.google.com/document/d/1lwFWprxDkQgblWIpog1j_dIiaDs_jzjJ_5lyDi-J3wg/edit?usp=sharing
+">Original Plan</a>
+	  <iframe src="https://docs.google.com/document/d/1lwFWprxDkQgblWIpog1j_dIiaDs_jzjJ_5lyDi-J3wg/edit?usp=sharing" style="width:600px; height:500px;" frameborder="0"></iframe>
 
 </p>
 </div>
@@ -75,6 +77,8 @@ body {font-family: Arial;}
 <div id="Final Project Plan 2" class="tabcontent">
   <h3>Final Project Plan 2</h3>
   <p> 
+	 <a href="https://docs.google.com/document/d/1g7VfImK2Aelp6CDwWc0NSYQ_VkU76Y93SXhcfRu0560
+">Plan 2 </a>
 	  
 <iframe src="https://docs.google.com/document/d/1g7VfImK2Aelp6CDwWc0NSYQ_VkU76Y93SXhcfRu0560" style="width:600px; height:500px;" frameborder="0"></iframe>
 
@@ -84,17 +88,23 @@ body {font-family: Arial;}
 <div id="Final Plan" class="tabcontent">
   <h3>Final Plan</h3>
 	
-  <p> <iframe src="https://docs.google.com/document/d/1iUxP3WUQkKK1ayuvKkRupLUH8T-d88zNqGBm1yYudVE/edit?usp=sharing" frameborder="0"></iframe> </p>
+  <p> <a href="https://docs.google.com/document/d/1iUxP3WUQkKK1ayuvKkRupLUH8T-d88zNqGBm1yYudVE/edit?usp=sharing
+">Final Plan</a>
+	<iframe src="https://docs.google.com/document/d/1iUxP3WUQkKK1ayuvKkRupLUH8T-d88zNqGBm1yYudVE/edit?usp=sharing" frameborder="0"></iframe> </p>
 </div>
 
 <div id="Project Update 07/31" class="tabcontent">
   <h3>Project Update 07/31</h3>
-  <p> <iframe src="https://docs.google.com/document/d/1-LVbl4_siurPn3JIq2tPXhH4YKHk0wKiKJPSXjMJ0pI/edit?usp=sharing" frameborder="0"></iframe>  </p>
+  <p> <a href=https://docs.google.com/document/d/1-LVbl4_siurPn3JIq2tPXhH4YKHk0wKiKJPSXjMJ0pI/edit?usp=sharing
+">Project Update 07/31 </a>
+	<iframe src="https://docs.google.com/document/d/1-LVbl4_siurPn3JIq2tPXhH4YKHk0wKiKJPSXjMJ0pI/edit?usp=sharing" frameborder="0"></iframe>  </p>
 </div>
 
 <div id="Progress" class="tabcontent">
   <h3>Progress</h3>
-  <p> <iframe src="https://docs.google.com/document/d/139E958er5j9MPKxyXhbfnbgA3y83sf7eP6fXaIT4rO4/edit?usp=sharing" frameborder="0"></iframe>  </p>
+  <p> <a href=https://docs.google.com/document/d/139E958er5j9MPKxyXhbfnbgA3y83sf7eP6fXaIT4rO4/edit?usp=sharing
+">Progress</a>
+	  <iframe src="https://docs.google.com/document/d/139E958er5j9MPKxyXhbfnbgA3y83sf7eP6fXaIT4rO4/edit?usp=sharing" frameborder="0"></iframe>  </p>
 </div>
 
 <script>
