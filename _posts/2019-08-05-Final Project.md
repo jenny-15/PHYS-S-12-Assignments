@@ -1,6 +1,6 @@
 ---
 layout: default
-title:  "Final Project Progress"
+title:  "Final Project Plans"
 permalink: /12/
 ---
 
@@ -60,8 +60,6 @@ body {font-family: Arial;}
   <button class="tablinks" onclick="openCity(event, 'Final Project Original Plan')">Final Project Original Plan</button>
   <button class="tablinks" onclick="openCity(event, 'Final Project Plan 2')">Final Project Plan 2</button>
 	<button class="tablinks" onclick="openCity(event, 'Final Plan')">Final Plan</button>
-	<button class="tablinks" onclick="openCity(event, 'Project Update 07/31')">Project Update 07/31</button>
-	<button class="tablinks" onclick="openCity(event, 'Progress')">Progress</button>
 </div>
 
 
@@ -93,19 +91,6 @@ body {font-family: Arial;}
 	<iframe src="https://docs.google.com/document/d/1iUxP3WUQkKK1ayuvKkRupLUH8T-d88zNqGBm1yYudVE/edit?usp=sharing" frameborder="0"></iframe> </p>
 </div>
 
-<div id="Project Update 07/31" class="tabcontent">
-  <h3>Project Update 07/31</h3>
-  <p> <a href="https://docs.google.com/document/d/1-LVbl4_siurPn3JIq2tPXhH4YKHk0wKiKJPSXjMJ0pI/edit?usp=sharing
-">Project Update 07/31 Link</a>
-	<iframe src="https://docs.google.com/document/d/1-LVbl4_siurPn3JIq2tPXhH4YKHk0wKiKJPSXjMJ0pI/edit?usp=sharing" frameborder="0"></iframe>  </p>
-</div>
-
-<div id="Progress" class="tabcontent">
-  <h3>Progress</h3>
-  <p> <a href="https://docs.google.com/document/d/139E958er5j9MPKxyXhbfnbgA3y83sf7eP6fXaIT4rO4/edit?usp=sharing
-">Progress Link</a>
-	  <iframe src="https://docs.google.com/document/d/139E958er5j9MPKxyXhbfnbgA3y83sf7eP6fXaIT4rO4/edit?usp=sharing" frameborder="0"></iframe>  </p>
-</div>
 
 <script>
 function openCity(evt, cityName) {
