@@ -77,8 +77,9 @@ Circuit:
 
 
 August 6:
-Today I created the containers for the protoboard. I decided to use cardboard instead of 3D printing because I need there to be a flexible opening/closing lid so that I can take the protoboard out when I need to. I could not have really done this with 3D printing. Unfortunately, this doesn’t look as nice, but I realized that I would not have much time to figure out how to make such a case with 3D printing. Due to the time I spent on this project over the past week, I have had a lot of work pile up so my time is very limited. It would take a while to figure something out and then design it in Fusion since I am not very experienced with it, and I often have scaling issues. 
-Essentially, I wanted to make a box with a lid. I made the box and the lid the same size because I thought that the box would expand slightly. 
+Today I created the containers for the protoboard. I decided to use cardboard instead of 3D printing because I need there to be a flexible opening/closing lid so that I can take the protoboard out when I need to. I could not have really done this with 3D printing. Unfortunately, carboard doesn’t look as nice, but I do not have much time to figure out how to make such a case with 3D printing. I was unable to make the design in Fusion earlier because I needed to know the dimensions of my protoboard. Due to the time I spent on this project over the past week, I have had a lot of work pile up so my time is very limited. It would take a while to figure something out and then design it in Fusion since I am not very experienced with it, and I often have scaling issues. With the time I have left, laser cutting is my best option.
+
+Essentially, I want to make a box with a removable lid. I made the box and the lid the same size because I thought that the box would expand slightly. 
 Transmitter-
 <img width="471" alt="Screen Shot 2019-08-07 at 12 37 03 AM" src="https://user-images.githubusercontent.com/52216217/62709243-fcf1a680-b9c2-11e9-9ba9-97e8562b313a.png">
 <img width="1304" alt="Screen Shot 2019-08-07 at 12 37 13 AM" src="https://user-images.githubusercontent.com/52216217/62709248-ffec9700-b9c2-11e9-9ad2-6a0264a9dd67.png">
