@@ -1,6 +1,6 @@
 ---
 layout: default
-title:  "Completed Final Project Completed"
+title:  "Completed Final Project"
 permalink: /13/
 ---
 
