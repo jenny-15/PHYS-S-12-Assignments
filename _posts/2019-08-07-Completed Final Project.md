@@ -14,6 +14,7 @@ I decided to make this device because it is very useful in the modern world. Peo
 (I started going on a bit of a tangent here, so feel free skip ahead to “Aversive Conditioning” to learn about how my project works.) The internet can be a great learning resource when sharing knowledge with others on websites like this, but too much time on electronics can be harmful. Given recent events, people should not be divided by screens and opinions during such tumultuous times. They should be open-minded of other perspectives instead of sticking to personal prejudices to work towards the mutual goal of making the world a better place. With more time on people’s hands, important issues can actually be resolved; if face-to-face interactions increased, people would spend less time arguing with others on the internet, resulting in a less divided and more cooperative world. 
 
 
+
 **Aversive Conditioning:**
 Aversive conditioning is a behavioral training that uses negative stimuli to associate certain actions as negative. It exposed subjects to a bad behavior and discomfort, associating the undesired behavior and the discomfort. By associating bad behaviors with uncomfortable feelings, the brain begins to associate bad behaviors with it. The concept is that if behaviors can be learned, they can also be unlearned.
 
