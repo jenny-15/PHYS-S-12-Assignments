@@ -89,7 +89,7 @@ During this project, I gained a lot of new skills. Firstly, I gained more progra
 
 A major skill that I learned is debugging, which will be useful in all future projects. To get my code and radio communication working I had to spend a long time debugging. The first thing that I had to achieve was a working code. After I first wrote it, it was not working, so I looked through each line to figure out where the problem was. I checked the code execution, the if statements, the variable values, and if the Arduino’s were sending and receiving, and what the Arduino’s were sending and receiving. At one point, I was really stuck on why the circuit was not working as I wanted it to. Nathan’s helped me figure it out, and it turns out that I needed to change the pinMode to INPUT_PULLUP instead of INPUT. 
 
-After I debugged the code, I had a lot of trouble with the protoboard after I transferred my circuit from the breadboard. I checked the soldering, the wiring, the hardware, the connections, the power, the sending and receiving, and I looked at how the pins should be communicating. Even after all of this, I was not able to determine the problem or how to fix it.
+After I debugged the code, I had a lot of trouble with the protoboard after I transferred my circuit from the breadboard. I checked the soldering, the wiring, the hardware, the connections, the power, the sending and receiving, and I looked at how the pins should be communicating. Even after all of this, I was not able to determine the problem or how to fix it. Wrestling with this issue and trying to find the root of the issue was a fun problem (but a little frustrating at times).
 
 
 **Final Thoughts:**
