@@ -1,7 +1,7 @@
 ---
 layout: default
 title:  "Final Project Plans"
-permalink: /12/
+permalink: /11/
 ---
 
 ### Final Project Plans
