@@ -1,10 +1,10 @@
 ---
 layout: default
-title:  "Final Project Completed Results"
+title:  "Completed Final Project Completed"
 permalink: /13/
 ---
 
-### Final Project Completed Results
+### Completed Final Project
 
 The goal of my final project is to create a wearable device that helps users stay focused and electronics-free. It alerts users when they use electronics and discourage the continued use of them by reacting negatively(beeping+vibrating). The device uses aversive conditioning.
 
