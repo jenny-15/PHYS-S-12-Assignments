@@ -1,7 +1,7 @@
 ---
 layout: default
 title:  "Final Project Progress"
-permalink: /14/
+permalink: /12/
 ---
 
 ### Final Project Progress
