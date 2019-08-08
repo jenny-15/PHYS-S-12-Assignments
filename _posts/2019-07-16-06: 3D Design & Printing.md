@@ -13,6 +13,7 @@ Design 1
 
 
 <img width="604" alt="Screen Shot 2019-07-17 at 1 48 42 PM" src="https://user-images.githubusercontent.com/52216217/61398270-a39dc800-a899-11e9-8e7e-9307f8937c38.png">
+<script src="https://embed.github.com/view/3d/jenny-15/PHYS-S-12-Assignments/master/06/3F%203D%20N6%20v1.stl"></script>
 Design 2
 
 ![IMG_1797](https://user-images.githubusercontent.com/52216217/61398055-35590580-a899-11e9-95c5-258fe34f61df.jpg)
