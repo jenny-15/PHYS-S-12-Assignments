@@ -1,7 +1,7 @@
 ---
 layout: default
 title:  "Final Project Completed Results"
-permalink: /13/
+permalink: /14/
 ---
 
 ### Final Project Completed Results
@@ -14,7 +14,7 @@ Aversive conditioning is a behavioral training that uses negative stimuli to ass
 
 My final project did not turn out the way that I expected, but I learned a lot along the way. I initially planned on making a wristband that shocked the wearer when they turn on electronics, and I ended up with a wristband that vibrates and buzzes and a separate device that attaches to electronics. In the end, I did not have enough time to condense my circuit into a protoboard due to issues I had with the radio module. So, I created the circuits that I would have put into the protoboard on a breadboard and made the devices that hold my circuit separately. My final project works, just not altogether. The code, sensor, vibrator, and buzzer all work, just not when transferred onto a protoboard. 
 
-Materials:
+**Materials:**
 Circuit-
 A breadboard, 2 protoboards, 2 nrf24l01 radio modules, buzzer, ERM cylindrical vibration motor, transistor, button, tilt switch, LED, wires, AND 2 Arduino Uno's and/or Nano's.
 
@@ -55,19 +55,10 @@ Final code:
 ">Receiver</a>
 
 The final device:
-	
-Receiver-
 ![IMG_2707](https://user-images.githubusercontent.com/52216217/62587842-a0db3500-b891-11e9-85a2-f57cbd63f163.jpg)
-![IMG_2730](https://user-images.githubusercontent.com/52216217/62707198-f82af380-b9be-11e9-8714-f5259c9f39f2.jpg)
 
-Transmitter-
-![IMG_2749](https://user-images.githubusercontent.com/52216217/62707208-fbbe7a80-b9be-11e9-91c7-f1d26dc8e24c.jpg)
-![IMG_2750](https://user-images.githubusercontent.com/52216217/62707214-00832e80-b9bf-11e9-93e9-ef971415fe12.jpg)
-![IMG_2751](https://user-images.githubusercontent.com/52216217/62707224-05e07900-b9bf-11e9-8d5e-25c634ee329f.jpg)
-![IMG_2753](https://user-images.githubusercontent.com/52216217/62707231-09740000-b9bf-11e9-83f8-1e291a98a84b.jpg)
-![IMG_2754](https://user-images.githubusercontent.com/52216217/62707237-0c6ef080-b9bf-11e9-8a69-033b9e30baa5.jpg)
-![IMG_2756](https://user-images.githubusercontent.com/52216217/62707248-0f69e100-b9bf-11e9-86aa-27f72f0cfcf4.jpg)
-
+**What I learned:**
+During this project, I gained a lot of new skills. Firstly, I gained more programming experience. Before this class, I had not written any code. Throughout this project, I gained a much better understanding about how C++ works. I also got to learn about the capabilities of Arduino's. 
 
 
 
