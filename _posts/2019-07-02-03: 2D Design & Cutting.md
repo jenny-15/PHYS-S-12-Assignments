@@ -73,6 +73,8 @@ Fires can occur in the laser cutter. If that happens, the ventilation needs to b
 
 Vinyl cutters:
 We were also introduced to vinyl cutters (Image 7). The machine cuts vinyl that is often backed with adhesives to print computer stickers. The printer uses a MIT software. To cut a design, the user has to pick a vector image path that a rotating knife will trace to cut out. After inputting an image for the software to read, users should select blade force and the threshold. 
+![IMG_2759](https://user-images.githubusercontent.com/52216217/62723462-c2960280-b9de-11e9-8288-b1dcbfb415e9.jpg)
+Image 7
 
 Challenges:
 -Copying shapes into other designs
